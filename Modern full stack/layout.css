@@ -1,0 +1,32 @@
+.grid {
+      display: grid;
+      grid-template-areas:
+        "navbar  navbar navbar navbar"
+        "sidebar article article article"
+        "footer  footer footer  footer";
+      gap: 5px;
+    }
+.size{
+    width: 100vh;
+    height: 50vw;
+}
+#navbar{
+    grid-area: navbar;
+    background-color: #c016c0;
+    padding: 10px;
+}
+#sidebar{
+    grid-area: sidebar;
+    background-color: #3fcbee;
+    padding: 10px;
+}
+#articles{
+    grid-area: article;
+    background-color: #ee0d0d;
+    padding: 10px;
+}
+#footer{
+    grid-area: footer;
+    background-color: #56df17;
+    padding: 10px;
+}

@@ -1,0 +1,14 @@
+      .parent {
+        display: flex;
+        gap: 20px;
+        height: 500px;
+      }
+      .child {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        text-align: center;
+      }
+      .child:nth-child(4) {
+        align-self: flex-end;
+      }
